@@ -5,7 +5,7 @@ export PATH
 #       System Required: CentOS/Debian/Ubuntu
 #       Description: iptables 封禁 BT、PT、SPAM（垃圾邮件）和自定义端口、关键词
 #       Version: 1.0.10
-#       Blog: https://doub.io/shell-jc2/
+#       Blog: https://github.com/hombo125
 #=================================================
 
 sh_ver="1.0.10"
