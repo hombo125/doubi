@@ -13,7 +13,7 @@ echo "Proxy node server installation script for CentOS 7 x64"
 echo "Press Y for continue the installation process, or press any key else to exit."
 read is_install
 if [[ is_install =~ ^[Y,y,Yes,YES]$ ]]
-then
+else
 	echo "Bye"
 	exit 0
 fi
