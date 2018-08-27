@@ -14,10 +14,9 @@ echo "Proxy node installation script for Ubuntu 18.04 x64"
 [ $(id -u) != "0" ] && { echo "${CFAILURE}Error: You must be root to run this script${CEND}"; exit 1; }
 echo "Press Y for continue the installation process, or press any key else to exit."
 read is_install
-if [[ is_install =~ ^[Y,y]$ ]]
-then
-	echo "Bye"
-	exit 0
+if [[ ${is_install} != "y" && ${is_install} != "Y" ]]; then
+    echo -e "Installation has been canceled..."
+    exit 0
 fi
 echo "Updatin exsit package..."
 apt clean all && apt autoremove -y && apt update && apt upgrade -y && apt dist-upgrade -y
@@ -58,13 +57,20 @@ done
 while :; do echo
 	echo -n "Do you want to enable multi user in single port feature?(Y/N)"
 	read is_mu
-	if [[ is_mu =~ ^[Y,y,N,n]$ ]]
-	then
+	if [[ ${is_mu} != "y" && ${is_mu} != "Y" && ${is_mu} != "N" && ${is_mu} != "n" ]]; then
 		echo -n "Bad answer! Please only input number Y or N"
 	else
 		break
 	fi
 done
+do_mu(){
+	echo -n "Please enter MU_SUFFIX:"
+	read mu_suffix
+	echo -n "Please enter MU_REGEX:"
+	read mu_regex
+	echo "Writting MU config..."
+	sed -i -e "s/MU_SUFFIX = 'zhaoj.in'/MU_SUFFIX = '${mu_suffix}'/g" -e "s/MU_REGEX = 'zhaoj.in'/MU_REGEX = '${mu_regex}'/g" userapiconfig.py
+}
 do_modwebapi(){
 	echo -n "Please enter WebAPI url:"
 	read webapi_url
@@ -72,13 +78,8 @@ do_modwebapi(){
 	read webapi_token
 	echo -n "Server node ID:"
 	read node_id
-	if [ is_mu == ^[Y,y]$ ]]; then
-		echo -n "Please enter MU_SUFFIX:"
-		read mu_suffix
-		echo -n "Please enter MU_REGEX:"
-		read mu_regex
-		echo "Writting MU config..."
-		sed -i -e "s/MU_SUFFIX = 'zhaoj.in'/MU_SUFFIX = '${mu_suffix}'/g" -e "s/MU_REGEX = 'zhaoj.in'/MU_REGEX = '${mu_regex}'/g" userapiconfig.py
+	if [[ ${is_mu} == "y" || ${is_mu} == "Y" ]]; then
+		do_mu
 	fi
 	echo "Writting connection config..."
 	sed -i -e "s/NODE_ID = 1/NODE_ID = ${node_id}/g" -e "s%WEBAPI_URL = 'https://zhaoj.in'%WEBAPI_URL = '${webapi_url}'%g" -e "s/WEBAPI_TOKEN = 'glzjin'/WEBAPI_TOKEN = '${webapi_token}'/g" userapiconfig.py
@@ -95,6 +96,9 @@ do_glzjinmod(){
 	read db_password
 	echo -n "Server node ID:"
 	read node_id
+	if [[ ${is_mu} == "y" || ${is_mu} == "Y" ]]; then
+		do_mu
+	fi
 	echo "Writting connection config..."
 	sed -i -e "s/NODE_ID = 1/NODE_ID = ${node_id}/g" -e "s/MYSQL_HOST = '127.0.0.1'/MYSQL_HOST = '${db_ip}'/g" -e "s/MYSQL_USER = 'ss'/MYSQL_USER = '${db_user}'/g" -e "s/MYSQL_PASS = 'ss'/MYSQL_PASS = '${db_password}'/g" -e "s/MYSQL_DB = 'shadowsocks'/MYSQL_DB = '${db_name}'/g" userapiconfig.py
 }
