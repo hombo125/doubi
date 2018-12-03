@@ -6,7 +6,6 @@ ssr.sh
 - 脚本说明: ShadowsocksR 一键安装/管理脚本，支持单端口/多端口切换和管理
 - 系统支持: CentOS6+ / Debian6+ / Ubuntu14+
 - 使用方法: https://doub.io/ss-jc42/
-- 项目地址: https://github.com/ToyoDAdoubi/shadowsocksr
 
 ### 脚本特点:
 目前网上的各个ShadowsocksR脚本基本都是只有 安装/启动/重启 等基础功能，对于小白来说还是不够简单方便。既然是一键脚本，那么就要尽可能地简单，小白更容易接受使用！
@@ -22,7 +21,7 @@ ssr.sh
 
 ### 下载安装:
 ``` bash
-wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/ssr.sh && chmod +x ssr.sh && bash ssr.sh
+wget -N --no-check-certificate https://raw.githubusercontent.com/hombo125/doubi/master/ssr.sh && chmod +x ssr.sh && bash ssr.sh
 ```
 
 ssrmu.sh
@@ -31,7 +30,6 @@ ssrmu.sh
 - 脚本说明: ShadowsocksR 一键安装/管理脚本，支持流量控制
 - 系统支持: CentOS6+ / Debian6+ / Ubuntu14+
 - 使用方法: https://doub.io/ss-jc60/
-- 项目地址: https://github.com/ToyoDAdoubi/shadowsocksr
 
 ### 脚本特点:
 目前网上的各个ShadowsocksR脚本基本都是只有 安装/启动/重启 等基础功能，对于小白来说还是不够简单方便。既然是一键脚本，那么就要尽可能地简单，小白更容易接受使用！
@@ -48,7 +46,7 @@ ssrmu.sh
 
 ### 下载安装:
 ``` bash
-wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/ssrmu.sh && chmod +x ssrmu.sh && bash ssrmu.sh
+wget -N --no-check-certificate https://raw.githubusercontent.com/hombo125/doubi/master/ssrmu.sh && chmod +x ssrmu.sh && bash ssrmu.sh
 ```
 
 ssr_check.sh
@@ -60,7 +58,7 @@ ssr_check.sh
 
 ### 下载安装:
 ``` bash
-wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/ssr_check.sh && chmod +x ssr_check.sh
+wget -N --no-check-certificate https://raw.githubusercontent.com/hombo125/doubi/master/ssr_check.sh && chmod +x ssr_check.sh
 ```
 
 ssrstatus.sh
@@ -72,7 +70,7 @@ ssrstatus.sh
 
 ### 下载安装:
 ``` bash
-wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/ssrstatus.sh && chmod +x ssrstatus.sh && bash ssrstatus
+wget -N --no-check-certificate https://raw.githubusercontent.com/hombo125/doubi/master/ssrstatus.sh && chmod +x ssrstatus.sh && bash ssrstatus
 ```
 
 ssr_ip_check.sh
@@ -84,7 +82,7 @@ ssr_ip_check.sh
 
 ### 下载安装:
 ``` bash
-wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/ssr_ip_check.sh && chmod +x ssr_ip_check.sh
+wget -N --no-check-certificate https://raw.githubusercontent.com/hombo125/doubi/master/ssr_ip_check.sh && chmod +x ssr_ip_check.sh
 ```
 
 bbr.sh
@@ -96,7 +94,7 @@ bbr.sh
 
 ### 下载安装:
 ``` bash
-wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/bbr.sh && chmod +x bbr.sh && bash bbr.sh
+wget -N --no-check-certificate https://raw.githubusercontent.com/hombo125/doubi/master/bbr.sh && chmod +x bbr.sh && bash bbr.sh
 ```
 
 brook.sh
@@ -108,7 +106,7 @@ brook.sh
 
 ### 下载安装:
 ``` bash
-wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/brook.sh && chmod +x brook.sh && bash brook.sh
+wget -N --no-check-certificate https://raw.githubusercontent.com/hombo125/doubi/master/brook.sh && chmod +x brook.sh && bash brook.sh
 ```
 
 goflyway.sh
@@ -120,7 +118,7 @@ goflyway.sh
 
 ### 下载安装:
 ``` bash
-wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/goflyway.sh && chmod +x goflyway.sh && bash goflyway.sh
+wget -N --no-check-certificate https://raw.githubusercontent.com/hombo125/doubi/master/goflyway.sh && chmod +x goflyway.sh && bash goflyway.sh
 ```
 
 mtproxy.sh
@@ -132,7 +130,7 @@ mtproxy.sh
 
 ### 下载安装:
 ``` bash
-wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/mtproxy.sh && chmod +x mtproxy.sh && bash mtproxy.sh
+wget -N --no-check-certificate https://raw.githubusercontent.com/hombo125/doubi/master/mtproxy.sh && chmod +x mtproxy.sh && bash mtproxy.sh
 ```
 
 lightsocks.sh
@@ -144,7 +142,7 @@ lightsocks.sh
 
 ### 下载安装:
 ``` bash
-wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/lightsocks.sh && chmod +x lightsocks.sh && bash lightsocks.sh
+wget -N --no-check-certificate https://raw.githubusercontent.com/hombo125/doubi/master/lightsocks.sh && chmod +x lightsocks.sh && bash lightsocks.sh
 ```
 
 pipes.sh
@@ -168,7 +166,7 @@ dowsdns.sh
 
 ### 下载安装:
 ``` bash
-wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/dowsdns.sh && chmod +x dowsdns.sh && bash dowsdns.sh
+wget -N --no-check-certificate https://raw.githubusercontent.com/hombo125/doubi/master/dowsdns.sh && chmod +x dowsdns.sh && bash dowsdns.sh
 ```
 
 caddy_install.sh
@@ -180,9 +178,9 @@ caddy_install.sh
 
 ### 下载安装:
 ``` bash
-wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/caddy_install.sh && chmod +x caddy_install.sh && bash caddy_install.sh
+wget -N --no-check-certificate https://raw.githubusercontent.com/hombo125/doubi/master/caddy_install.sh && chmod +x caddy_install.sh && bash caddy_install.sh
 # 卸载命令：
-wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/caddy_install.sh && chmod +x caddy_install.sh && caddy_install.sh uninstall
+wget -N --no-check-certificate https://raw.githubusercontent.com/hombo125/doubi/master/caddy_install.sh && chmod +x caddy_install.sh && caddy_install.sh uninstall
 ```
 
 cloudt.sh
@@ -195,7 +193,7 @@ cloudt.sh
 
 ### 下载安装:
 ``` bash
-wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/cloudt.sh && chmod +x cloudt.sh && bash cloudt.sh
+wget -N --no-check-certificate https://raw.githubusercontent.com/hombo125/doubi/master/cloudt.sh && chmod +x cloudt.sh && bash cloudt.sh
 ```
 
 pserver.sh
@@ -208,7 +206,7 @@ pserver.sh
 
 ### 下载安装:
 ``` bash
-wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/pserver.sh && chmod +x pserver.sh && bash pserver.sh
+wget -N --no-check-certificate https://raw.githubusercontent.com/hombo125/doubi/master/pserver.sh && chmod +x pserver.sh && bash pserver.sh
 ```
 
 aria2.sh
@@ -220,7 +218,7 @@ aria2.sh
 
 ### 下载安装:
 ``` bash
-wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/aria2.sh && chmod +x aria2.sh && bash aria2.sh
+wget -N --no-check-certificate https://raw.githubusercontent.com/hombo125/doubi/master/aria2.sh && chmod +x aria2.sh && bash aria2.sh
 ```
 
 ssh_port.sh
@@ -232,7 +230,7 @@ ssh_port.sh
 
 ### 下载安装:
 ``` bash
-wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/ssh_port.sh && chmod +x ssh_port.sh && bash ssh_port.sh
+wget -N --no-check-certificate https://raw.githubusercontent.com/hombo125/doubi/master/ssh_port.sh && chmod +x ssh_port.sh && bash ssh_port.sh
 ```
 
 ocserv.sh
@@ -244,7 +242,7 @@ ocserv.sh
 
 ### 下载安装:
 ``` bash
-wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/ocserv.sh && chmod +x ocserv.sh && bash ocserv.sh
+wget -N --no-check-certificate https://raw.githubusercontent.com/hombo125/doubi/master/ocserv.sh && chmod +x ocserv.sh && bash ocserv.sh
 ```
 
 gogo.sh
@@ -256,7 +254,7 @@ gogo.sh
 
 ### 下载安装:
 ``` bash
-wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/gogo.sh && chmod +x gogo.sh && bash gogo.sh
+wget -N --no-check-certificate https://raw.githubusercontent.com/hombo125/doubi/master/gogo.sh && chmod +x gogo.sh && bash gogo.sh
 ```
 
 brook-pf.sh
@@ -268,7 +266,7 @@ brook-pf.sh
 
 ### 下载安装:
 ``` bash
-wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/brook-pf.sh && chmod +x brook-pf.sh && bash brook-pf.sh
+wget -N --no-check-certificate https://raw.githubusercontent.com/hombo125/doubi/master/brook-pf.sh && chmod +x brook-pf.sh && bash brook-pf.sh
 ```
 
 socat.sh
@@ -280,7 +278,7 @@ socat.sh
 
 ### 下载安装:
 ``` bash
-wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/socat.sh && chmod +x socat.sh && bash socat.sh
+wget -N --no-check-certificate https://raw.githubusercontent.com/hombo125/doubi/master/socat.sh && chmod +x socat.sh && bash socat.sh
 ```
 
 tinymapper.sh
@@ -292,7 +290,7 @@ tinymapper.sh
 
 ### 下载安装:
 ``` bash
-wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/tinymapper.sh && chmod +x tinymapper.sh && bash tinymapper.sh
+wget -N --no-check-certificate https://raw.githubusercontent.com/hombo125/doubi/master/tinymapper.sh && chmod +x tinymapper.sh && bash tinymapper.sh
 ```
 
 haproxy.sh
@@ -304,7 +302,7 @@ haproxy.sh
 
 ### 下载安装:
 ``` bash
-wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/haproxy.sh && chmod +x haproxy.sh && bash haproxy.sh
+wget -N --no-check-certificate https://raw.githubusercontent.com/hombo125/doubi/master/haproxy.sh && chmod +x haproxy.sh && bash haproxy.sh
 ```
 
 iptables-pf.sh
@@ -316,7 +314,7 @@ iptables-pf.sh
 
 ### 下载安装:
 ``` bash
-wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/iptables-pf.sh && chmod +x iptables-pf.sh && bash iptables-pf.sh
+wget -N --no-check-certificate https://raw.githubusercontent.com/hombo125/doubi/master/iptables-pf.sh && chmod +x iptables-pf.sh && bash iptables-pf.sh
 ```
 
 status.sh
@@ -328,7 +326,7 @@ status.sh
 
 ### 下载安装:
 ``` bash
-wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/status.sh && chmod +x status.sh && bash status.sh
+wget -N --no-check-certificate https://raw.githubusercontent.com/hombo125/doubi/master/status.sh && chmod +x status.sh && bash status.sh
 ```
 
 pythonhttp.sh
@@ -340,7 +338,7 @@ pythonhttp.sh
 
 ### 下载安装:
 ``` bash
-wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/pythonhttp.sh && chmod +x pythonhttp.sh && bash pythonhttp.sh
+wget -N --no-check-certificate https://raw.githubusercontent.com/hombo125/doubi/master/pythonhttp.sh && chmod +x pythonhttp.sh && bash pythonhttp.sh
 ```
 
 adbyby.sh
@@ -352,7 +350,7 @@ adbyby.sh
 
 ### 下载安装:
 ``` bash
-wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/adbyby.sh && chmod +x adbyby.sh && bash adbyby.sh
+wget -N --no-check-certificate https://raw.githubusercontent.com/hombo125/doubi/master/adbyby.sh && chmod +x adbyby.sh && bash adbyby.sh
 ```
 
 libsodium.sh
@@ -364,7 +362,7 @@ libsodium.sh
 
 ### 下载安装:
 ``` bash
-wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/libsodium.sh && chmod +x libsodium.sh && bash libsodium.sh
+wget -N --no-check-certificate https://raw.githubusercontent.com/hombo125/doubi/master/libsodium.sh && chmod +x libsodium.sh && bash libsodium.sh
 ```
 
 ban_iptables.sh
@@ -376,7 +374,7 @@ ban_iptables.sh
 
 ### 下载安装:
 ``` bash
-wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/ban_iptables.sh && chmod +x ban_iptables.sh && bash ban_iptables.sh
+wget -N --no-check-certificate https://raw.githubusercontent.com/hombo125/doubi/master/ban_iptables.sh && chmod +x ban_iptables.sh && bash ban_iptables.sh
 ```
 
 Get_Out_Spam.sh
@@ -388,7 +386,7 @@ Get_Out_Spam.sh
 
 ### 下载安装:
 ``` bash
-wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/Get_Out_Spam.sh && chmod +x Get_Out_Spam.sh && bash Get_Out_Spam.sh add
+wget -N --no-check-certificate https://raw.githubusercontent.com/hombo125/doubi/master/Get_Out_Spam.sh && chmod +x Get_Out_Spam.sh && bash Get_Out_Spam.sh add
 # 卸载
 bash Get_Out_Spam.sh del
 ```
