@@ -5,7 +5,7 @@ export PATH
 #=========================================================#
 # One Click Change Kernel to Serverspeeder for CentOS 6/7 #
 # Github: https://github.com/uxh/shadowsocks_bash         #
-# Author: www.banwagongzw.com && www.vultrcn.com          #
+# Author: www.vpscn.net          #
 #=========================================================#
 
 #Color
@@ -21,8 +21,8 @@ plain='\033[0m'
 clear
 echo "#=========================================================#"
 echo "# One Click Change Kernel to Serverspeeder for CentOS 6/7 #"
-echo "# Github: https://github.com/uxh/shadowsocks_bash         #"
-echo "# Author: www.banwagongzw.com && www.vultrcn.com          #"
+echo "# Github: https://github.com/hombo125         #"
+echo "# Author: www.vpscn.net         #"
 echo "#=========================================================#"
 
 #Check system
