@@ -36,7 +36,7 @@ cd ../ && rm -rf libsodium*
 echo "Installing Shadowsocksr server from GitHub..."
 mkdir /soft
 cd /soft
-git clone -b manyuser https://github.com/esdeathlove/shadowsocks.git
+git clone -b manyuser https://github.com/NimaQu/shadowsocks.git
 cd /soft/shadowsocks
 pip install --upgrade pip
 pip install -r requirements.txt
