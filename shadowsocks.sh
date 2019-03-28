@@ -4,17 +4,15 @@ export PATH
 #=================================================================#
 #   System Required:  CentOS 6+, Debian 7+, Ubuntu 12+            #
 #   Description: One click Install Shadowsocks-Python server      #
-#   Author: Teddysun <i@teddysun.com>                             #
 #   Thanks: @clowwindy <https://twitter.com/clowwindy>            #
-#   Intro:  https://teddysun.com/342.html                         #
+#   Intro:  https://www.vpscn.net                                 #
 #=================================================================#
 
 clear
 echo
 echo "#############################################################"
 echo "# One click Install Shadowsocks-Python server               #"
-echo "# Intro: https://teddysun.com/342.html                      #"
-echo "# Author: Teddysun <i@teddysun.com>                         #"
+echo "# Intro: https://www.vpscn.net                              #"
 echo "# Github: https://github.com/shadowsocks/shadowsocks        #"
 echo "#############################################################"
 echo
@@ -164,7 +162,7 @@ pre_install(){
     # Set shadowsocks config password
     echo "Please enter password for shadowsocks-python"
     read -p "(Default password: teddysun.com):" shadowsockspwd
-    [ -z "${shadowsockspwd}" ] && shadowsockspwd="teddysun.com"
+    [ -z "${shadowsockspwd}" ] && shadowsockspwd="vpscn.net"
     echo
     echo "---------------------------"
     echo "password = ${shadowsockspwd}"
@@ -358,7 +356,7 @@ install(){
     echo -e "Your Password         : \033[41;37m ${shadowsockspwd} \033[0m"
     echo -e "Your Encryption Method: \033[41;37m ${shadowsockscipher} \033[0m"
     echo
-    echo "Welcome to visit:https://teddysun.com/342.html"
+    echo "Welcome to visit:https://www.vpscn.net"
     echo "Enjoy it!"
     echo
 }
